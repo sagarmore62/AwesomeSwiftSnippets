@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snippet-nsmutableattributedstring</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let stringText = &lt;# string #&gt;
+        let attrText = NSMutableAttributedString(string: stringText)
+attrText.addAttributes([NSAttributedStringKey.font: &lt;# font : UIFont #&gt;, NSAttributedStringKey.foregroundColor: &lt;# foregroundColor : UIColor #&gt;], range: NSRange(location: 0, length: attrText.length))
+
+        let style = NSMutableParagraphStyle()
+style.lineSpacing = &lt;# lineSpacing : CGFloat #&gt;
+style.alignment = &lt;# alignment : NSTextAlignment #&gt;
+attrText.addAttributes([NSAttributedStringKey.kern: &lt;# kern #&gt;, NSAttributedStringKey.paragraphStyle: style], range: NSRange(location: 0, length: attrText.length))</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D2475D52-EAB0-47D5-A8BE-F84095FAD5E2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create NSMutableAttributedString Stub</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSMutableAttributedString</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
